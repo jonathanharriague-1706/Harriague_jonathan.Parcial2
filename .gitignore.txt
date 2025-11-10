@@ -1,0 +1,32 @@
+# Este .gitignore debe estar en la raíz de tu proyecto Unity
+
+# Directorios que Unity regenera y NO deben subirse
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.pid
+
+# Archivos de caché y configuración del sistema operativo/IDE
+.DS_Store
+.vscode/
+Thumbs.db
+
+# Archivos de solución y proyecto de Visual Studio/Rider
+# Para tu entrega, no excluiremos estos archivos.
+# *.csproj
+# *.unityproj
+# *.sln
+# *.suo
+# *.user
+# *.userprefs
+# *.pdb
+
+# Archivos temporales
+*.log
+*.meta.orig
